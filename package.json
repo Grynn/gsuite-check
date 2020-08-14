@@ -1,10 +1,11 @@
 {
-  "name": "gsuite-check",
+  "name": "@grynn/gsuite-check",
   "version": "1.0.0",
   "description": "Quickly check if a domain is active on GSuite (directly or as an alias in some other account)",
   "bin": {
     "gsuite-check": "main.js"
   },
+  "repository": "github:grynn/gsuite-check",
   "scripts": {
     "build": "make",
     "test": "echo \"Error: no test specified\" && exit 1"
