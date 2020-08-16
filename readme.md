@@ -4,11 +4,16 @@ Quickly check if a domain is active on GSuite (directly or as an alias in some o
 
 ## Install
 
-`npx install -g @grynn/gsuite-check`
+`npm install -g @grynn/gsuite-check`
 
 ## Usage
 
 `gsuite-check <domain.com>`
+
+## Examples
+
+`npx @grynn/gsuite-check abc.com => Yup ✨`
+`npx @grynn/gsuite-check bing.com => Nope 👎`
 
 ## Return Codes
 
