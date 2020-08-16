@@ -12,8 +12,12 @@ Quickly check if a domain is active on GSuite (directly or as an alias in some o
 
 ## Examples
 
-`npx @grynn/gsuite-check abc.com => Yup ✨`
-`npx @grynn/gsuite-check bing.com => Nope 👎`
+```shell
+npx @grynn/gsuite-check abc.com 
+# Yup ✨
+npx @grynn/gsuite-check bing.com 
+# Nope 👎`
+```
 
 ## Return Codes
 
