@@ -1,6 +1,11 @@
-.PHONY: install build publish
+.PHONY: install build publish test
 
-build: node_modules
+test: build
+	npm run test
+
+build: node_modules bin/main.js
+
+bin/main.js: bin/main.ts
 	tsc
 
 install: build node_modules

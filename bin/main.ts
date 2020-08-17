@@ -3,7 +3,7 @@
 // Quickly check if a domain is active on GSuite (directly or as an alias in some other account)
 import fetch from "node-fetch";
 import { program } from "commander";
-import { version } from "./package.json";
+import { version } from "../package.json";
 
 program.version(version);
 program.description(`Checks if domain had gsuite by visiting https://www.google.com/a/\${domain}/DomainContact
