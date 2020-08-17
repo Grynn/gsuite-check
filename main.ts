@@ -14,6 +14,9 @@ Exit Codes:
 program.arguments("<domain>").action(main);
 program.parse(process.argv);
 
+/**
+ * Main
+ */
 async function main(domain: string): Promise<void> {
   let r = await fetch(`https://www.google.com/a/${domain}/DomainContact`);
   let data = await r.text();
