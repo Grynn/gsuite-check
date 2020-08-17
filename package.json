@@ -1,6 +1,6 @@
 {
   "name": "@grynn/gsuite-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly check if a domain is active on GSuite (directly or as an alias in some other account)",
   "bin": {
     "gsuite-check": "main.js"
