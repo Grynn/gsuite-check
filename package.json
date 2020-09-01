@@ -3,17 +3,16 @@
   "version": "1.0.1",
   "description": "Quickly check if a domain is active on GSuite (directly or as an alias in some other account)",
   "bin": {
-    "gsuite-check": "main.js"
+    "gsuite-check": "bin/main.js"
   },
   "repository": "github:grynn/gsuite-check",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "build": "make",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "gsuite"
+  ],
   "author": "Vishal Doshi <vishal.doshi@gmail.com>",
   "license": "ISC",
   "dependencies": {
@@ -21,8 +20,13 @@
     "commander": "^6.0.0",
     "node-fetch": "^2.6.0"
   },
+  "files": [
+    "bin/main.js",
+    "readme.md"
+  ],
   "devDependencies": {
     "concat-stream": "^2.0.0",
-    "jest": "^26.4.0"
+    "jest": "^26.4.0",
+    "np": "^5"
   }
 }

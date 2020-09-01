@@ -10,7 +10,7 @@ describe("gsuite-check-cli", () => {
   });
 
   it("should work for example.com", async () => {
-    let response = await cliProcess.execute("example.com");
+    let response = await cliProcess.execute("abc.com");
     expect(response).toMatch(/Yup/);
   });
 });
